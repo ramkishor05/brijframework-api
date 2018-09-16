@@ -1,0 +1,14 @@
+org\brijframework\factories\Factory.class
+org\brijframework\lifecycle\Finalizer.class
+org\brijframework\BaseObject.class
+org\brijframework\container\Container.class
+org\brijframework\model\ModelObject.class
+org\brijframework\accessor\Accessor.class
+org\brijframework\factories\AccessorFactory.class
+org\brijframework\context\Context.class
+org\brijframework\persistence\Persistence.class
+org\brijframework\lifecycle\Initializer.class
+org\brijframework\listener\Listener.class
+org\brijframework\net\Network.class
+org\brijframework\group\Group.class
+org\brijframework\resources\Resource.class
