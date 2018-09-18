@@ -29,7 +29,7 @@ public interface BaseObject extends Serializable{
 	 * @param _key
 	 * @return
 	 */
-	public Boolean containsProperty(String _key);
+	public Boolean containsKey(String _key);
 
 	/****
 	 * these provides us to check value of key which is contains or not for object.

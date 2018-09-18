@@ -1,7 +1,6 @@
 package org.brijframework.group;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 public interface Group extends Serializable{
@@ -30,34 +29,6 @@ public interface Group extends Serializable{
 
 	@SuppressWarnings("rawtypes")
 	public ConcurrentHashMap getCache();
-
-	/**
-	 * get update value form next modify keys of object from current object
-	 *  if current scope of object following are:
-	 * 
-	 * singleton
-	 * request
-	 * session
-	 * 
-	 * @param key
-	 * @return object
-	 */
-	public <T>T nextObject(Object key);
-
-	/**
-	 * get update value form previous modify keys of object from current object
-	 * if current scope of object following are:
-	 * 
-	 * singleton
-	 * request
-	 * session
-	 * 
-	 * @param key
-	 * @return object
-	 */
-	public <T>T prevObject(Object key);
-
-	public List<?> history();
 
 	public <T>T find(String parentID, Class<?> type);
 

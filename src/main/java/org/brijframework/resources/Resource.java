@@ -8,6 +8,8 @@ import java.net.URISyntaxException;
 
 public interface Resource {
 
+	String getId();
+	
 	boolean exists();
 
 	File getFile();
@@ -25,4 +27,6 @@ public interface Resource {
 	byte[] getContent();
 
 	InputStream getInputStream() throws IOException;
+
+	String getPath();
 }
