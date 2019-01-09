@@ -14,7 +14,6 @@ public interface Factory {
 
 	ConcurrentHashMap<?, ? extends Object> getCache();
 
-	String getJson();
-
 	Factory clear();
+
 }
