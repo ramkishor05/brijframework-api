@@ -3,11 +3,11 @@ package org.brijframework;
 import java.io.Serializable;
 
 /***
- * Model interface which is provide comman method to manipulate of object.
+ * BeanContext interface which is provide comman method to manipulate of object.
  * @author Ram Kishor
  *
  */
-public interface BaseObject extends Serializable{
+public interface ObjectContext extends Serializable{
 	
 	/***
 	 * these provides us to set value of key for object.
@@ -44,5 +44,6 @@ public interface BaseObject extends Serializable{
 	 * @return
 	 */
 	public Class<?> typeOfProperty(String _key);
+	
 	
 }
