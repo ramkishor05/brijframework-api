@@ -27,8 +27,6 @@ public interface Container {
 	public <T> T  remove(Object groupKey, Object key);
 
 	public Group get(Object groupKey);
-	
-	public Group load(Object groupKey);
 
 	public <T> T get(Object groupKey, Object key);
 	
@@ -41,4 +39,6 @@ public interface Container {
 	public ConcurrentHashMap<Object,Group> getCache();
 
 	public <T> T search(Object groupKey, String parentID, Class<?> type);
+
+	public Group load(Object groupKey);
 }
