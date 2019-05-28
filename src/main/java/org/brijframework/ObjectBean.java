@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author Ram Kishor
  *
  */
-public interface ObjectContext extends Serializable{
+public interface ObjectBean extends Serializable{
 	
 	/***
 	 * these provides us to set value of key for object.
