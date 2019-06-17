@@ -1,8 +1,7 @@
 package org.brijframework.context;
 
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.Properties;
 
-import org.brijframework.container.Container;
 import org.brijframework.lifecycle.Initializer;
 
 public interface Context extends Initializer {
@@ -32,15 +31,6 @@ public interface Context extends Initializer {
 	public Context getParent();
 	
 	
-	/**
-	 * Return the Container map of context, or {@code null} if there is no parent and this
-	 * is the root of the context hierarchy.
-	 * 
-	 * @return the parent context, or {@code null} if there is no parent
-	 */
-	public ConcurrentHashMap<Object, Container> getContainers();
-	
-	
-	
+	public Properties getProperties();
 	
 }
