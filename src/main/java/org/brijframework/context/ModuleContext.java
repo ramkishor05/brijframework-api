@@ -4,7 +4,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.brijframework.container.Container;
 
-public interface ContainerContext  extends Context{
+public interface ModuleContext  extends Context{
 
 	/**
 	 * Return the Container map of context, or {@code null} if there is no parent and this
