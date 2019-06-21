@@ -33,4 +33,9 @@ public interface Context extends Initializer {
 	
 	public Properties getProperties();
 	
+	 
+	public boolean isStarted();
+	
+	public boolean isStoped();
+	
 }
