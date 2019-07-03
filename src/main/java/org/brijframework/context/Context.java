@@ -13,7 +13,7 @@ public interface Context extends Initializer {
 	 * 
 	 * @return void
 	 */
-	public void startup();
+	public void start();
 
 	/**
 	 * this is release root internal process of the context hierarchy.
