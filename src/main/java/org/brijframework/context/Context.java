@@ -20,7 +20,7 @@ public interface Context extends Initializer {
 	 * 
 	 * @return void
 	 */
-	public void destory();
+	public void stop();
 
 	/**
 	 * Return the parent context, or {@code null} if there is no parent and this
