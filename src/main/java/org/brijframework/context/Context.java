@@ -1,7 +1,6 @@
 package org.brijframework.context;
 
-import java.util.Properties;
-
+import org.brijframework.env.Environment;
 import org.brijframework.lifecycle.Initializer;
 
 public interface Context extends Initializer {
@@ -30,12 +29,12 @@ public interface Context extends Initializer {
 	 */
 	public Context getParent();
 	
-	
-	public Properties getProperties();
-	
-	 
-	public boolean isStarted();
-	
-	public boolean isStoped();
+
+	/**
+	 * this is release Environment of the context hierarchy.
+	 * 
+	 * @return Environment
+	 */
+	public Environment getEnvironment();
 	
 }

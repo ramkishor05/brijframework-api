@@ -1,5 +1,12 @@
 package org.brijframework.env;
 
-public interface Environment {
+import java.util.Map;
+import java.util.Properties;
+
+import org.brijframework.lifecycle.Initializer;
+
+public interface Environment extends Initializer, Map<Object, Object>{
+
+	void setProperties(Properties properties);
 
 }

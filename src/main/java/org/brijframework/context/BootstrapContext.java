@@ -2,8 +2,6 @@ package org.brijframework.context;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.brijframework.config.EnvConfigration;
-
 public interface BootstrapContext extends Context{
 
 	/**
@@ -14,5 +12,4 @@ public interface BootstrapContext extends Context{
 	 */
 	public ConcurrentHashMap<Object, Context> getContexts();
 	
-	public EnvConfigration getConfigration();
 }
