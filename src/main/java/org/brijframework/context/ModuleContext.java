@@ -2,7 +2,7 @@ package org.brijframework.context;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.brijframework.container.Container;
+import org.brijframework.container.ModuleContainer;
 
 public interface ModuleContext  extends Context{
 
@@ -12,6 +12,6 @@ public interface ModuleContext  extends Context{
 	 * 
 	 * @return the parent context, or {@code null} if there is no parent
 	 */
-	public ConcurrentHashMap<Object, Container> getContainers();
+	public ConcurrentHashMap<Object, ModuleContainer> getContainers();
 	
 }

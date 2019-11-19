@@ -2,6 +2,8 @@ package org.brijframework.context;
 
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.brijframework.container.BootstrapContainer;
+
 public interface BootstrapContext extends Context{
 
 	/**
@@ -10,6 +12,6 @@ public interface BootstrapContext extends Context{
 	 * 
 	 * @return the parent context, or {@code null} if there is no parent
 	 */
-	public ConcurrentHashMap<Object, Context> getContexts();
+	public ConcurrentHashMap<Object, BootstrapContainer> getContainers();
 	
 }
