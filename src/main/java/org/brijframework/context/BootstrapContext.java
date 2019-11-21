@@ -14,4 +14,8 @@ public interface BootstrapContext extends Context{
 	 */
 	public ConcurrentHashMap<Object, BootstrapContainer> getContainers();
 	
+	public void prestart( BootstrapContainer container) ;
+	
+	public void poststart( BootstrapContainer container) ;
+	
 }
