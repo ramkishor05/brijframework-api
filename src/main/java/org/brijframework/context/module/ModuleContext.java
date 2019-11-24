@@ -1,8 +1,9 @@
-package org.brijframework.context;
+package org.brijframework.context.module;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.brijframework.container.ModuleContainer;
+import org.brijframework.container.module.ModuleContainer;
+import org.brijframework.context.Context;
 
 public interface ModuleContext  extends Context{
 

@@ -1,8 +1,9 @@
-package org.brijframework.context;
+package org.brijframework.context.bootstrap;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.brijframework.container.BootstrapContainer;
+import org.brijframework.container.bootstrap.BootstrapContainer;
+import org.brijframework.context.Context;
 
 public interface BootstrapContext extends Context{
 

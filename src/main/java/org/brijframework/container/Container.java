@@ -1,10 +1,8 @@
 package org.brijframework.container;
 
-import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.brijframework.context.Context;
-import org.brijframework.factories.Factory;
 import org.brijframework.group.Group;
 import org.brijframework.lifecycle.Initializer;
 
@@ -50,5 +48,4 @@ public interface Container extends Initializer{
 
 	public void setContext(Context context);
 
-	public Collection<Class<? extends Factory>> getClassList();
 }
