@@ -14,7 +14,7 @@ public interface Environment extends Initializer{
 
 	boolean isActive();
 
-	String get(String key);
+	Object get(String key);
 
 	
 }
