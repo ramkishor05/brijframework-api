@@ -48,4 +48,6 @@ public interface Container extends Initializer{
 
 	public void setContext(Context context);
 
+	public boolean containsObject(Object key);
+
 }

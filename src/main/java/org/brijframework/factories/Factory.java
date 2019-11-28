@@ -19,5 +19,7 @@ public interface Factory<K,T> {
 	public  T register(K key, T data);
 
 	public  T find(K key);
-
+	
+	public  boolean contains(K dataSetup);
+	
 }
