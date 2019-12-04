@@ -22,4 +22,6 @@ public interface Factory<K,T> {
 	
 	public  boolean contains(K dataSetup);
 	
+	public void loadContainer(K key, T value);
+	
 }
