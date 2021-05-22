@@ -1,11 +1,5 @@
 package org.brijframework.lifecycle;
 public interface Initializer {
-	/**
-	 * Initialize the given application context.
-	 * 
-	 * @param applicationContext
-	 *            the application to configure
-	 */
 
 	default void preInit() {
 

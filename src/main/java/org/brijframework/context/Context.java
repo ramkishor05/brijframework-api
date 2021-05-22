@@ -10,14 +10,12 @@ public interface Context extends Initializer {
 	/**
 	 * this is load and start root internal process of the context hierarchy.
 	 * 
-	 * @return void
 	 */
 	public void start();
 
 	/**
 	 * this is release root internal process of the context hierarchy.
 	 * 
-	 * @return void
 	 */
 	public void stop();
 
@@ -25,7 +23,6 @@ public interface Context extends Initializer {
 	 * Return the parent context, or {@code null} if there is no parent and this
 	 * is the root of the context hierarchy.
 	 * 
-	 * @return the parent context, or {@code null} if there is no parent
 	 */
 	public Context getParent();
 	
@@ -33,7 +30,6 @@ public interface Context extends Initializer {
 	/**
 	 * this is release Environment of the context hierarchy.
 	 * 
-	 * @return Environment
 	 */
 	public Environment getEnvironment();
 	
