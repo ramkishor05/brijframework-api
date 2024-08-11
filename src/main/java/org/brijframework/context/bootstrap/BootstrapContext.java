@@ -20,6 +20,6 @@ public interface BootstrapContext extends Context{
 	
 	public void poststart( BootstrapContainer container) ;
 
-	ModuleContext getModuleContext(Class<? extends ModuleContext> moduleContextCls);
+	ModuleContext getContext(Class<? extends ModuleContext> moduleContextCls);
 	
 }

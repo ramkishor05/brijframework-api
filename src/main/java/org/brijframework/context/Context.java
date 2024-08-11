@@ -32,5 +32,5 @@ public interface Context extends Initializer {
 	 * 
 	 */
 	public Environment getEnvironment();
-	
+
 }
